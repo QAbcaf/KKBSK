@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Partner Kami dan Pengajuan</name>
+   <tag></tag>
+   <elementGuidId>e4394916-cccc-4cf0-8e72-cbf0aa20f4d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarText']/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.max-.text-center.text-wrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fb76daaa-7535-4560-b7d7-63866878c805</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link max- text-center text-wrap</value>
+      <webElementGuid>11904f0f-5750-473e-9a50-1b77943d1bcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://virtualmall.idofocus.co.id:25443/cars</value>
+      <webElementGuid>e33331af-3b0b-489c-bacc-602656c81002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Partner Kami dan Pengajuan</value>
+      <webElementGuid>15dba9af-130e-41a8-9380-0cddab2ceb31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav mx-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link max- text-center text-wrap&quot;]</value>
+      <webElementGuid>4d84b722-63e4-47f7-ba13-f1b0b6d2a910</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbarText']/ul/li[3]/a</value>
+      <webElementGuid>1b335517-4c90-4ce5-969c-f021458bb5f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Partner Kami dan Pengajuan')]</value>
+      <webElementGuid>fcd1ef4c-b963-432f-8c87-e7541e0ff9e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simulasi Kredit'])[1]/following::a[1]</value>
+      <webElementGuid>658f0e7e-614a-47c1-a67a-cf1fff6d0d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[2]</value>
+      <webElementGuid>1ffe4c1a-3a51-4bc4-b180-c45f07dd2f00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paket Kredit'])[1]/preceding::a[1]</value>
+      <webElementGuid>cc532521-bd7d-412d-b595-3ce85ff22175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berita Artikel'])[1]/preceding::a[2]</value>
+      <webElementGuid>694bdd07-38cb-448f-8406-3c7042fc1bf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Partner Kami dan Pengajuan']/parent::*</value>
+      <webElementGuid>bc4bd862-cd6d-48d7-a041-3054ab6a2f6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://virtualmall.idofocus.co.id:25443/cars')]</value>
+      <webElementGuid>71147cc0-995b-4e45-9f5a-3a0f3cb86636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>2aeb3327-503c-4646-8d6b-aa0a047ccf0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://virtualmall.idofocus.co.id:25443/cars' and (text() = 'Partner Kami dan Pengajuan' or . = 'Partner Kami dan Pengajuan')]</value>
+      <webElementGuid>3dff4ec4-3c9d-4de7-bc8e-92def23af460</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

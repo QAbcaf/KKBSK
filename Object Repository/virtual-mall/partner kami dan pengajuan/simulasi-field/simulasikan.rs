@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>simulasikan</name>
+   <tag></tag>
+   <elementGuidId>d5c4316e-3ef9-4121-b3e2-38b411be2695</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@id = 'credit')]//*[(text() = 'Simulasikan' or . = 'Simulasikan')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Simulasikan' or . = 'Simulasikan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>9796d2d0-762f-43fe-ab75-5c72413dbd28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>${id}</value>
+      <webElementGuid>b64a1f4b-9b1d-467c-b494-48ff89ff2342</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simulasikan</value>
+      <webElementGuid>df3e3fbd-cd57-4cf6-9289-58149df8872c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

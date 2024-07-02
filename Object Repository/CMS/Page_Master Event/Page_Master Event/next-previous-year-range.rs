@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>next-previous-year-range</name>
+   <tag></tag>
+   <elementGuidId>5ded13e1-6a83-46f1-b8e5-4929f66dd75a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'next' and @ref_element = 'Object Repository/CMS/Page_Master Event/Page_Master Event/iframe_Buat Event Baru_popupiframe']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>265c061e-8dc0-4442-84c6-ed8a32cbc786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>next</value>
+      <webElementGuid>dc1a4ea0-08f7-4ba7-b531-f9159f9f1879</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${index}</value>
+      <webElementGuid>b772f2b3-8157-4786-b327-06c483fa63a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>style</name>
+      <type>Main</type>
+      <value>visibility: visible;</value>
+      <webElementGuid>d4f6af55-ff5f-4920-ab46-fd4a777f7707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/CMS/Page_Master Event/Page_Master Event/iframe_Buat Event Baru_popupiframe</value>
+      <webElementGuid>9a4cc76f-1df9-4239-8ed0-5cd6595e233e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

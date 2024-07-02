@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>pengajuan VM (Partner Kami dan Pengajuan)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9c022a8-a5b9-4404-8a72-5d2c3f9446a7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>919551c2-4212-43b5-870b-e3eb5e05ce23</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>807a5357-930c-40b7-8e32-8f9e6a43cc0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9dfbf277-cbce-439d-acff-fa1a133b7b04</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc9a43da-29ec-43c6-aef6-b84a88ba069c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'BMW'</defaultValue>
+      <description></description>
+      <id>919551c2-4212-43b5-870b-e3eb5e05ce23</id>
+      <masked>false</masked>
+      <name>carBrand</name>
+   </variable>
+   <variable>
+      <defaultValue>'Wagon'</defaultValue>
+      <description></description>
+      <id>807a5357-930c-40b7-8e32-8f9e6a43cc0e</id>
+      <masked>false</masked>
+      <name>carCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>'BMW M Series X3 M Competition 2023'</defaultValue>
+      <description></description>
+      <id>9dfbf277-cbce-439d-acff-fa1a133b7b04</id>
+      <masked>false</masked>
+      <name>carName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Astra BMW'</defaultValue>
+      <description></description>
+      <id>dc9a43da-29ec-43c6-aef6-b84a88ba069c</id>
+      <masked>false</masked>
+      <name>dealerName</name>
+   </variable>
+</TestCaseEntity>

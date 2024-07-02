@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>yearRange</name>
+   <tag></tag>
+   <elementGuidId>ffadb58a-4afc-452b-ae53-d013b4aff123</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'datepicker-switch' and @ref_element = 'Object Repository/CMS/Page_Master Event/Page_Master Event/iframe_Buat Event Baru_popupiframe']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2020-2029</value>
+      <webElementGuid>5592a17c-f5b8-4623-9834-bb31735d85ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>datepicker-switch</value>
+      <webElementGuid>9a21e857-610a-49e8-b9f2-e11bb37f4c03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/CMS/Page_Master Event/Page_Master Event/iframe_Buat Event Baru_popupiframe</value>
+      <webElementGuid>f3ebf8fe-9c74-43a2-9ff7-e6f5124e6d9e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

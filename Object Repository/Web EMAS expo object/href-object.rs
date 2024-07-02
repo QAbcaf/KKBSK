@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>href-object</name>
+   <tag></tag>
+   <elementGuidId>745d475d-100c-430b-aa7e-0bfbad1fa5b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>${link}</value>
+      <webElementGuid>00bbf254-19fe-451e-bc5c-fc3b3cf1060e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

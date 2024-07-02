@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select-option</name>
+   <tag></tag>
+   <elementGuidId>35f5e233-8179-450c-9b92-4d6997004505</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${dealerName}' or . = '${dealerName}') and @role = 'option']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${dealerName}</value>
+      <webElementGuid>ff734845-0846-41bc-af52-c4ae7a1c90e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>819d82d0-c51c-4a8b-8df9-84594d8abbc3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

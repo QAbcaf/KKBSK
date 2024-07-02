@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tenor-button-dinamis</name>
+   <tag></tag>
+   <elementGuidId>929e1776-7321-4378-a035-9b93c90548bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@id = 'credit')]//*[(text() = 'Simulasikan' or . = 'Simulasikan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>319ce8fb-9a7c-4737-a9be-a52d8a91fcac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tenor</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>796cac6a-1e54-4d45-b589-096842b2020c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

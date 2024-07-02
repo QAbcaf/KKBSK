@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. verifikasi data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16c7efbc-48c3-4ae1-90d4-13406b35ff87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f38549d-237c-47f9-adc8-573cf2d5fc3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e1404ac-c343-45f6-a068-94696eb02c1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>6f38549d-237c-47f9-adc8-573cf2d5fc3b</id>
+      <masked>false</masked>
+      <name>matriks</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing UAT Senin'</defaultValue>
+      <description></description>
+      <id>9e1404ac-c343-45f6-a068-94696eb02c1d</id>
+      <masked>false</masked>
+      <name>nama_event</name>
+   </variable>
+</TestCaseEntity>

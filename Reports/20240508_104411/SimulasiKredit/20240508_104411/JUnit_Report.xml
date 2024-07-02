@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SimulasiKredit" time="95.991" tests="1" failures="0" errors="0">
+   <testsuite name="SimulasiKredit" tests="1" failures="0" errors="0" time="95.991" skipped="0" timestamp="08-05-2024T10:44:14" hostname="clarien cahyono - LAPTOP-JTB6QV1G" id="Test Suites/SimulasiKredit">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411"/>
+         <property name="logFiles" value="D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\appium.log, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\appium_error.log, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\execution0.log"/>
+         <property name="attachments" value="D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/Input Data.png, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139918653.png, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139919342.png, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139920965.png, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139921549.png, D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/Input Harga Kendaraan.png, D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/ADDM.png, D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/Simulasi Detail ADDM.png, D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139947152.png"/>
+         <property name="hostName" value="clarien cahyono - LAPTOP-JTB6QV1G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="10.10.13.99"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/KKBSKM Mobile Simulasi/Simulasi_Kredit" time="95.638" classname="Test Cases/KKBSKM Mobile Simulasi/Simulasi_Kredit" status="PASSED">
+         <system-out><![CDATA[08-05-2024T10:44:15 - [TEST_CASE][PASSED] - Test Cases/KKBSKM Mobile Simulasi/Simulasi_Kredit: Test Cases/KKBSKM Mobile Simulasi/Simulasi_Kredit
+
+08-05-2024T10:44:15 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+08-05-2024T10:44:15 - [TEST_STEP][PASSED] - packageName = "bcaf.crm.kkb.saleskit": null
+
+08-05-2024T10:44:15 - [TEST_STEP][PASSED] - startExistingApplication(packageName): Starting app with application ID: 'bcaf.crm.kkb.saleskit'
+
+08-05-2024T10:44:16 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+08-05-2024T10:44:27 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+08-05-2024T10:44:27 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\clarien cahyono\.appium
+
+08-05-2024T10:44:27 - [MESSAGE][INFO] - appium outlog: D:\BCAF\kkbsk-priority-17\Reports\20240508_104411\SimulasiKredit\20240508_104411\appium.log
+
+08-05-2024T10:44:27 - [MESSAGE][INFO] - appium errlog: D:\BCAF\kkbsk-priority-17\Reports\20240508_104411\SimulasiKredit\20240508_104411\appium_error.log
+
+08-05-2024T10:44:29 - [MESSAGE][INFO] - Appium server started on port 63,698
+
+08-05-2024T10:44:35 - [MESSAGE][PASSED] - Starting app with application ID: 'bcaf.crm.kkb.saleskit'
+
+08-05-2024T10:44:35 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+08-05-2024T10:44:35 - [TEST_STEP][PASSED] - id = "bcaf.crm.kkb.saleskit:id": null
+
+08-05-2024T10:44:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath":"//androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]"]), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/jenisProgram']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$Program')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/jenisPembiayaan']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisPembiayaan')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/tipeKonsumen']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$TipeKonsumen')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:46 - [TEST_STEP][PASSED] - switch (NPWP): null
+
+08-05-2024T10:44:46 - [TEST_STEP][PASSED] - case "Yes":: null
+
+08-05-2024T10:44:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/npwpY']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:47 - [TEST_STEP][PASSED] - break: null
+
+08-05-2024T10:44:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/cluster']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$Cluster')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/tujuanPenggunaan']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$TujuanPenggunaan')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:53 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + screenshotPathKredit + "/" + No + "/" + "Input Data" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+08-05-2024T10:44:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/Input Data.png]]
+
+08-05-2024T10:44:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/nextSimKredit']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/hargaKendaraan']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:44:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:44:57 - [TEST_STEP][PASSED] - HargaKendaraan = HargaKendaraan: null
+
+08-05-2024T10:44:57 - [TEST_STEP][PASSED] - for ([i = 0, i < HargaKendaraan.length(), (i++)]): null
+
+08-05-2024T10:44:57 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:44:57 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:44:58 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:44:59 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:44:59 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:44:59 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:00 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:45:00 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:00 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:00 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:45:00 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:00 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:01 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:45:01 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:01 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:02 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:45:02 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:02 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:02 - [TEST_STEP][PASSED] - digit = HargaKendaraan.charAt(i): null
+
+08-05-2024T10:45:02 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:02 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/uangMukaPercent']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - DP = DP: null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - for ([i = 0, i < DP.length(), (i++)]): null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - digit = DP.charAt(i): null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - digit = DP.charAt(i): null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - keyCode = Character.getNumericValue(digit) + 7: null
+
+08-05-2024T10:45:04 - [TEST_STEP][PASSED] - driver.pressKeyCode(keyCode): null
+
+08-05-2024T10:45:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/jenisKendaraan']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisKendaraan')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:10 - [TEST_STEP][PASSED] - Wilayah = Wilayah: null
+
+08-05-2024T10:45:10 - [TEST_STEP][PASSED] - if (Wilayah == "1"): null
+
+08-05-2024T10:45:10 - [TEST_STEP][PASSED] - Wilayah = "Sumatra dan Sekitarnya": null
+
+08-05-2024T10:45:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/wilayah']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$Wilayah')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/asuransi']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@class = 'android.widget.CheckedTextView' and (@text = '$Asuransi')]]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:16 - [TEST_STEP][PASSED] - mapPerluasanAsuransi = ["RSCC":"checkRSCC", "TJH 10 JT":"checkTJH10", "TJH 25 JT":"checkTJH25", "RSMB":"checkRSMB", "TJH 50 JT":"checkTJH50"]: null
+
+08-05-2024T10:45:16 - [TEST_STEP][PASSED] - uncheckAllCheckboxes(): null
+
+08-05-2024T10:45:16 - [TEST_STEP][FAILED] - ["checkRSCC", "checkRSMB", "checkTJH10", "checkTJH25", "checkTJH50"].each({ java.lang.Object resourceId -> ... }): Failed to verify if element 'Object Repository/xpath' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to verify if element 'Object Repository/xpath' is checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementChecked(MobileBuiltInKeywords.groovy:2494)
+	at Script1714461900876$_uncheckAllCheckboxes_closure3.doCall(Script1714461900876.groovy:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Simulasi_Kredit.uncheckAllCheckboxes(Simulasi_Kredit:131)
+	at Simulasi_Kredit.run(Simulasi_Kredit:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' is not checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 25 more
+)
+
+08-05-2024T10:45:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:16 - [MESSAGE][PASSED] - Element 'Object Repository/xpath' is checked
+
+08-05-2024T10:45:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:17 - [MESSAGE][PASSED] - Element 'Object Repository/xpath' is checked
+
+08-05-2024T10:45:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:19 - [MESSAGE][FAILED] - Element 'Object Repository/xpath' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' is not checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementChecked(MobileBuiltInKeywords.groovy:2494)
+	at Script1714461900876$_uncheckAllCheckboxes_closure3.doCall(Script1714461900876.groovy:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Simulasi_Kredit.uncheckAllCheckboxes(Simulasi_Kredit:131)
+	at Simulasi_Kredit.run(Simulasi_Kredit:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139918653.png]]
+
+08-05-2024T10:45:19 - [MESSAGE][FAILED] - Failed to verify if element 'Object Repository/xpath' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to verify if element 'Object Repository/xpath' is checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementChecked(MobileBuiltInKeywords.groovy:2494)
+	at Script1714461900876$_uncheckAllCheckboxes_closure3.doCall(Script1714461900876.groovy:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Simulasi_Kredit.uncheckAllCheckboxes(Simulasi_Kredit:131)
+	at Simulasi_Kredit.run(Simulasi_Kredit:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' is not checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 25 more
+)
+[[ATTACHMENT|D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139919342.png]]
+
+08-05-2024T10:45:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:20 - [MESSAGE][PASSED] - Element 'Object Repository/xpath' is checked
+
+08-05-2024T10:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:21 - [MESSAGE][FAILED] - Element 'Object Repository/xpath' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' is not checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementChecked(MobileBuiltInKeywords.groovy:2494)
+	at Script1714461900876$_uncheckAllCheckboxes_closure3.doCall(Script1714461900876.groovy:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Simulasi_Kredit.uncheckAllCheckboxes(Simulasi_Kredit:131)
+	at Simulasi_Kredit.run(Simulasi_Kredit:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139920965.png]]
+
+08-05-2024T10:45:22 - [MESSAGE][FAILED] - Failed to verify if element 'Object Repository/xpath' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to verify if element 'Object Repository/xpath' is checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementChecked(MobileBuiltInKeywords.groovy:2494)
+	at Script1714461900876$_uncheckAllCheckboxes_closure3.doCall(Script1714461900876.groovy:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Simulasi_Kredit.uncheckAllCheckboxes(Simulasi_Kredit:131)
+	at Simulasi_Kredit.run(Simulasi_Kredit:145)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' is not checked
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 25 more
+)
+[[ATTACHMENT|D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139921549.png]]
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - switch (RSCC): null
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - case "1":: null
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/checkRSCC']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - break: null
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - switch (RSMB): null
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - case "1":: null
+
+08-05-2024T10:45:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/checkRSMB']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:23 - [TEST_STEP][PASSED] - break: null
+
+08-05-2024T10:45:23 - [TEST_STEP][PASSED] - switch (TJH): null
+
+08-05-2024T10:45:23 - [TEST_STEP][PASSED] - case "10":: null
+
+08-05-2024T10:45:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/checkTJH10']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:23 - [TEST_STEP][PASSED] - break: null
+
+08-05-2024T10:45:23 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + screenshotPathKredit + "/" + No + "/" + "Input Harga Kendaraan" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+08-05-2024T10:45:24 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/Input Harga Kendaraan.png]]
+
+08-05-2024T10:45:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/kalkulasi']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-05-2024T10:45:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-05-2024T10:45:27 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/btDownload']]), 2, OPTIONAL)): null
+
+08-05-2024T10:45:30 - [MESSAGE][PASSED] - Element 'Object Repository/xpath' is exist
+
+08-05-2024T10:45:30 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + screenshotPathKredit + "/" + No + "/" + "ADDM" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+08-05-2024T10:45:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/ADDM.png]]
+
+08-05-2024T10:45:30 - [TEST_STEP][PASSED] - DP_Angsuran = [["MukaDP1", "//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"], ["MukaDP2", "//android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"], ["MukaDP3", "//android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"], ["MukaDP4", "//android.widget.FrameLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"], ["MukaDP5", "//android.widget.FrameLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"], ["MukaDP6", "//android.widget.FrameLayout[6]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"], ["MukaAngsuran1", "//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"], ["MukaAngsuran2", "//android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"], ["MukaAngsuran3", "//android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"], ["MukaAngsuran4", "//android.widget.FrameLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"], ["MukaAngsuran5", "//android.widget.FrameLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"], ["MukaAngsuran6", "//android.widget.FrameLayout[6]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"]]: null
+
+08-05-2024T10:45:30 - [TEST_STEP][PASSED] - excelKeyword = new excel.WriteExcel(): null
+
+08-05-2024T10:45:30 - [TEST_STEP][PASSED] - DP_Angsuran.each({ java.lang.Object columnValue -> ... }): null
+
+08-05-2024T10:45:30 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 135,815,500'
+
+08-05-2024T10:45:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:30 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 135,815,500'
+
+08-05-2024T10:45:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 138,871,900'
+
+08-05-2024T10:45:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 138,871,900'
+
+08-05-2024T10:45:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 143,987,900'
+
+08-05-2024T10:45:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 143,987,900'
+
+08-05-2024T10:45:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 149,372,400'
+
+08-05-2024T10:45:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 149,372,400'
+
+08-05-2024T10:45:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 154,518,300'
+
+08-05-2024T10:45:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 154,518,300'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 159,593,800'
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 159,593,800'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 6,866,700'
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 6,866,700'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 3,566,700'
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 3,566,700'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 2,472,300'
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 2,472,300'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 1,950,000'
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 1,950,000'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): Text of element 'Object Repository/xpath' is: 'Rp. 1,688,700'
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 1,688,700'
+
+08-05-2024T10:45:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/xpath", ["xpath":xpath]), 0): null
+
+08-05-2024T10:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/xpath' is: 'Rp. 1,517,800'
+
+08-05-2024T10:45:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/btDownload']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/buttonSimulasiDetail']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-05-2024T10:45:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-05-2024T10:45:37 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + screenshotPathKredit + "/" + No + "/" + "Simulasi Detail ADDM" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+08-05-2024T10:45:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\BCAF\kkbsk-priority-17\Screenshots\SimulasiKredit/1/Simulasi Detail ADDM.png]]
+
+08-05-2024T10:45:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-05-2024T10:45:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-05-2024T10:45:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+08-05-2024T10:45:40 - [MESSAGE][PASSED] - Press back button successfully
+
+08-05-2024T10:45:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath":"//android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]"]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+08-05-2024T10:45:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+08-05-2024T10:45:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/btDownload']]), 2, CONTINUE_ON_FAILURE): Object Object Repository/xpath not found
+
+08-05-2024T10:45:45 - [MESSAGE][WARNING] - Object Object Repository/xpath not found
+
+08-05-2024T10:45:45 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/btDownload']]), 2, OPTIONAL)): Element 'Object Repository/xpath' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2015)
+	at Simulasi_Kredit.run(Simulasi_Kredit:227)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+08-05-2024T10:45:47 - [MESSAGE][WARNING] - Element 'Object Repository/xpath' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/xpath' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2015)
+	at Simulasi_Kredit.run(Simulasi_Kredit:227)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1715139851846.run(TempTestSuite1715139851846.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|D:\\BCAF\\kkbsk-priority-17\\Reports\\20240508_104411\\SimulasiKredit\\20240508_104411\\1715139947152.png]]
+
+08-05-2024T10:45:47 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/back']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/back']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/xpath", ["xpath"://*[@resource-id = '$id/back']]), 0): Tapped on element 'Object Repository/xpath'
+
+08-05-2024T10:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-05-2024T10:45:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/xpath']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-05-2024T10:44:14 - [TEST_SUITE][PASSED] - SimulasiKredit: Test Cases/KKBSKM Mobile Simulasi/Simulasi_Kredit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

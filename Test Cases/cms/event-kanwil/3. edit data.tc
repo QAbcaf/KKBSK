@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3. edit data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a83905d1-d989-4052-a304-bfd6fdef22c6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4a32689-8210-4bd0-8351-265e583a49fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ebff385-4fec-4776-95fd-5013cdbe7094</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>648a2933-b2b4-41c5-9d5f-40fbc830fbff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>f4a32689-8210-4bd0-8351-265e583a49fb</id>
+      <masked>false</masked>
+      <name>matriks</name>
+   </variable>
+   <variable>
+      <defaultValue>'BCAEXPO 3'</defaultValue>
+      <description></description>
+      <id>9ebff385-4fec-4776-95fd-5013cdbe7094</id>
+      <masked>false</masked>
+      <name>nama_event</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>648a2933-b2b4-41c5-9d5f-40fbc830fbff</id>
+      <masked>false</masked>
+      <name>kanwil</name>
+   </variable>
+</TestCaseEntity>

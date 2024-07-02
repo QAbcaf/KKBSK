@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>value-object</name>
+   <tag></tag>
+   <elementGuidId>5c891789-a1c4-41a2-9a80-3ca77aa16113</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>${value}</value>
+      <webElementGuid>e11f20db-9921-4d98-bc97-21eb37213c54</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

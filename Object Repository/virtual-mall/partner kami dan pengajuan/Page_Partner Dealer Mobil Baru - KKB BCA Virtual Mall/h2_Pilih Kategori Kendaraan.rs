@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Pilih Kategori Kendaraan</name>
+   <tag></tag>
+   <elementGuidId>3a0239f9-ffef-4665-baef-3527f9f643a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='categoryTitle']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#categoryTitle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>f40f95cb-c814-4b08-a1f7-ecc851c4a053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>categoryTitle</value>
+      <webElementGuid>3bffdf3b-6fcd-4dc8-80c2-257c48329507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center mb-4</value>
+      <webElementGuid>f07469a4-3e4c-4584-8077-2f47a6a1e22b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Kategori Kendaraan</value>
+      <webElementGuid>29e04b54-16df-47a2-8d90-5a18539162b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;categoryTitle&quot;)</value>
+      <webElementGuid>b762815e-50e0-4d2b-9ca2-a67655d88932</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='categoryTitle']</value>
+      <webElementGuid>aae082e5-1fb0-4075-a3e6-640a99eaca6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='gridCarModels']/div/div/h2</value>
+      <webElementGuid>8ce47602-0497-45ff-bb76-67912bca90f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volvo'])[2]/following::h2[1]</value>
+      <webElementGuid>ca7c3e05-c79c-492c-86c9-600fd024f482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MG'])[2]/following::h2[1]</value>
+      <webElementGuid>c71f56a1-046b-4bb8-817f-01995a88ea2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SEDAN'])[2]/preceding::h2[1]</value>
+      <webElementGuid>8937fee5-7e07-49ce-ace8-a839785682be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUV'])[2]/preceding::h2[1]</value>
+      <webElementGuid>0b6b4b12-55da-4d14-9d8f-72e052b11adf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pilih Kategori Kendaraan']/parent::*</value>
+      <webElementGuid>b72594d8-3aeb-474e-855e-e66ca58b7894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/h2</value>
+      <webElementGuid>d2ddd5c4-66ea-4285-be42-744514e8737d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'categoryTitle' and (text() = 'Pilih Kategori Kendaraan' or . = 'Pilih Kategori Kendaraan')]</value>
+      <webElementGuid>77a99759-4f20-4c81-8ec6-2fe837be69f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

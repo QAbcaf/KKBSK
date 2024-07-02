@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>class-object</name>
+   <tag></tag>
+   <elementGuidId>7f03196a-0f2c-4771-9d1c-1a304adfa59e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>${class}</value>
+      <webElementGuid>c243c7ba-4b37-48bc-b6bf-0a90afe32985</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchBar</name>
+   <tag></tag>
+   <elementGuidId>44a975dc-8160-4cdb-ba8d-b086f2b4055f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@placeholder, '${placeholder}') and @type = 'search' and contains(@class, '${class}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>${placeholder}</value>
+      <webElementGuid>5dd4b1ec-40c4-4781-abd4-914a0296ccb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>search</value>
+      <webElementGuid>a0d576fd-c810-4a7b-80fe-6e5b8fe1941c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>${class}</value>
+      <webElementGuid>2535327f-4448-4260-aacf-ec5cc9879496</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

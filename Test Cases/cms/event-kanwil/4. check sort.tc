@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4. check sort</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20f04a21-1ed0-4c35-8556-5f69e77dffd7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59641b5b-f0d3-46ec-b69f-592072676a8b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>59641b5b-f0d3-46ec-b69f-592072676a8b</id>
+      <masked>false</masked>
+      <name>matriks</name>
+   </variable>
+</TestCaseEntity>

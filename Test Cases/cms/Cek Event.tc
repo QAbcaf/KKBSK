@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cek Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bed8a50-008a-48d2-bd8f-9ae09bafd752</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2335d766-1b10-4efc-9a94-176e62e043e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c7eb007a-3531-4e15-999c-e906c530e90b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2335d766-1b10-4efc-9a94-176e62e043e3</id>
+      <masked>false</masked>
+      <name>nama_event</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7eb007a-3531-4e15-999c-e906c530e90b</id>
+      <masked>false</masked>
+      <name>matriks</name>
+   </variable>
+</TestCaseEntity>

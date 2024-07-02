@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SimulasiKredit,,,,08-05-2024 10:42:17,08-05-2024 10:43:50,1m - 32.956s,PASSED
+,,,,,,,
+Test Cases/KKBSKM Mobile Simulasi/Simulasi_Kredit,,,,08-05-2024 10:42:17,08-05-2024 10:43:50,1m - 32.635s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,,,08-05-2024 10:42:18,08-05-2024 10:42:18,0.007s,PASSED
+"packageName = ""bcaf.crm.kkb.saleskit""",,,,08-05-2024 10:42:18,08-05-2024 10:42:18,0.002s,PASSED
+startExistingApplication(packageName),,,,08-05-2024 10:42:18,08-05-2024 10:42:42,23.494s,PASSED
+driver = getDriver(),,,,08-05-2024 10:42:42,08-05-2024 10:42:42,0.002s,PASSED
+"id = ""bcaf.crm.kkb.saleskit:id""",,,,08-05-2024 10:42:42,08-05-2024 10:42:42,0.002s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath"":""//androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]""]), 0, STOP_ON_FAILURE)",,,,08-05-2024 10:42:42,08-05-2024 10:42:44,2.295s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/jenisProgram']]), 0)",,,,08-05-2024 10:42:44,08-05-2024 10:42:46,1.714s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$Program')]]), 0)",,,,08-05-2024 10:42:46,08-05-2024 10:42:49,2.939s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/jenisPembiayaan']]), 0)",,,,08-05-2024 10:42:49,08-05-2024 10:42:50,1.293s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisPembiayaan')]]), 0)",,,,08-05-2024 10:42:50,08-05-2024 10:42:52,2.329s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/tipeKonsumen']]), 0)",,,,08-05-2024 10:42:52,08-05-2024 10:42:54,1.352s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$TipeKonsumen')]]), 0)",,,,08-05-2024 10:42:54,08-05-2024 10:42:55,0.916s,PASSED
+switch (NPWP),,,,08-05-2024 10:42:55,08-05-2024 10:42:57,2.098s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/cluster']]), 0)",,,,08-05-2024 10:42:57,08-05-2024 10:42:57,0.212s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$Cluster')]]), 0)",,,,08-05-2024 10:42:57,08-05-2024 10:42:59,1.941s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/tujuanPenggunaan']]), 0)",,,,08-05-2024 10:42:59,08-05-2024 10:43:00,1.282s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$TujuanPenggunaan')]]), 0)",,,,08-05-2024 10:43:00,08-05-2024 10:43:01,0.945s,PASSED
+"takeScreenshot(baseDir + screenshotPathKredit + ""/"" + No + ""/"" + ""Input Data"" + "".png"", STOP_ON_FAILURE)",,,,08-05-2024 10:43:01,08-05-2024 10:43:02,0.840s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/nextSimKredit']]), 0)",,,,08-05-2024 10:43:02,08-05-2024 10:43:03,1.035s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/hargaKendaraan']]), 0)",,,,08-05-2024 10:43:03,08-05-2024 10:43:05,1.827s,PASSED
+HargaKendaraan = HargaKendaraan,,,,08-05-2024 10:43:05,08-05-2024 10:43:05,0.002s,PASSED
+"for ([i = 0, i < HargaKendaraan.length(), (i++)])",,,,08-05-2024 10:43:05,08-05-2024 10:43:12,6.728s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/uangMukaPercent']]), 0)",,,,08-05-2024 10:43:12,08-05-2024 10:43:13,1.385s,PASSED
+DP = DP,,,,08-05-2024 10:43:13,08-05-2024 10:43:13,0.001s,PASSED
+"for ([i = 0, i < DP.length(), (i++)])",,,,08-05-2024 10:43:13,08-05-2024 10:43:14,0.694s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/jenisKendaraan']]), 0)",,,,08-05-2024 10:43:14,08-05-2024 10:43:14,0.718s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisKendaraan')]]), 0)",,,,08-05-2024 10:43:14,08-05-2024 10:43:18,3.538s,PASSED
+Wilayah = Wilayah,,,,08-05-2024 10:43:18,08-05-2024 10:43:18,0.001s,PASSED
+"if (Wilayah == ""1"")",,,,08-05-2024 10:43:18,08-05-2024 10:43:18,0.001s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/wilayah']]), 0)",,,,08-05-2024 10:43:18,08-05-2024 10:43:19,1.364s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$Wilayah')]]), 0)",,,,08-05-2024 10:43:19,08-05-2024 10:43:21,1.630s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/asuransi']]), 0)",,,,08-05-2024 10:43:21,08-05-2024 10:43:21,0.198s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@class = 'android.widget.CheckedTextView' and (@text = '$Asuransi')]]), 0)",,,,08-05-2024 10:43:21,08-05-2024 10:43:24,2.769s,PASSED
+"mapPerluasanAsuransi = [""RSCC"":""checkRSCC"", ""TJH 10 JT"":""checkTJH10"", ""TJH 25 JT"":""checkTJH25"", ""RSMB"":""checkRSMB"", ""TJH 50 JT"":""checkTJH50""]",,,,08-05-2024 10:43:24,08-05-2024 10:43:24,0.001s,PASSED
+uncheckAllCheckboxes(),,,,08-05-2024 10:43:24,08-05-2024 10:43:24,0.001s,PASSED
+"[""checkRSCC"", ""checkRSMB"", ""checkTJH10"", ""checkTJH25"", ""checkTJH50""].each({ java.lang.Object resourceId -> ... })",,,,08-05-2024 10:43:24,08-05-2024 10:43:29,5.473s,FAILED
+switch (RSCC),,,,08-05-2024 10:43:29,08-05-2024 10:43:30,0.205s,PASSED
+switch (RSMB),,,,08-05-2024 10:43:30,08-05-2024 10:43:30,0.779s,PASSED
+switch (TJH),,,,08-05-2024 10:43:30,08-05-2024 10:43:31,0.848s,PASSED
+"takeScreenshot(baseDir + screenshotPathKredit + ""/"" + No + ""/"" + ""Input Harga Kendaraan"" + "".png"", STOP_ON_FAILURE)",,,,08-05-2024 10:43:31,08-05-2024 10:43:32,0.910s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/kalkulasi']]), 0)",,,,08-05-2024 10:43:32,08-05-2024 10:43:32,0.211s,PASSED
+delay(3),,,,08-05-2024 10:43:32,08-05-2024 10:43:35,3.025s,PASSED
+"if (verifyElementExist(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/btDownload']]), 2, OPTIONAL))",,,,08-05-2024 10:43:35,08-05-2024 10:43:39,3.212s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath"":""//android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]""]), 0)",,,,08-05-2024 10:43:39,08-05-2024 10:43:39,0.217s,PASSED
+delay(1),,,,08-05-2024 10:43:39,08-05-2024 10:43:40,1.017s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/btDownload']]), 2, CONTINUE_ON_FAILURE)",,,,08-05-2024 10:43:40,08-05-2024 10:43:42,2.095s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/btDownload']]), 2, OPTIONAL))",,,,08-05-2024 10:43:42,08-05-2024 10:43:45,3.613s,PASSED
+else,,,,08-05-2024 10:43:45,08-05-2024 10:43:46,0.186s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/back']]), 0)",,,,08-05-2024 10:43:46,08-05-2024 10:43:49,3.000s,PASSED
+"tap(findTestObject(""Object Repository/xpath"", [""xpath""://*[@resource-id = '$id/back']]), 0)",,,,08-05-2024 10:43:49,08-05-2024 10:43:50,1.463s,PASSED

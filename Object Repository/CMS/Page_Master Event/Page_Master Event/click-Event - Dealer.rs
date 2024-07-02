@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click-Event - Dealer</name>
+   <tag></tag>
+   <elementGuidId>491d89b5-cbf6-4652-bdd9-f4cd61138bcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#event_mapping_dealer > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='event_mapping_dealer']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bfb23f7b-e649-46d7-85fa-e04c37b64cbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/master/event_mapping_dealer</value>
+      <webElementGuid>751e71ae-5f28-4371-9153-7614d115ae62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Event - Dealer</value>
+      <webElementGuid>a67b75db-76c5-4f50-a105-7e460d304e1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;event_mapping_dealer&quot;)/a[1]</value>
+      <webElementGuid>0db81f3a-09d1-45c0-a432-10ef48456ffd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='event_mapping_dealer']/a</value>
+      <webElementGuid>76e8325e-40d8-44e5-acac-42a508aeb863</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Event - Dealer')]</value>
+      <webElementGuid>365e1100-ec4f-412e-9f04-c5f8b230a568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Event'])[1]/following::a[1]</value>
+      <webElementGuid>5f423ca4-e1f3-4881-b42e-73ae0a3a5fd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Data'])[1]/following::a[2]</value>
+      <webElementGuid>d4921c27-618e-4af2-8c54-07f2db91d1fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event - Kanwil - KCU'])[1]/preceding::a[1]</value>
+      <webElementGuid>c8e2632e-2393-48c6-b2d8-4ec64831b3ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='House Keeping'])[1]/preceding::a[2]</value>
+      <webElementGuid>73db724c-6917-4288-bb3f-b083f1af4617</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Event - Dealer']/parent::*</value>
+      <webElementGuid>45cea448-e28c-4c06-ab44-14f71ea77277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/master/event_mapping_dealer')]</value>
+      <webElementGuid>b90a5df1-3ad1-4cf8-8717-6761a04009b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li[2]/a</value>
+      <webElementGuid>dd9f3cf5-5839-4fba-8da2-b8f99b9f2bca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/master/event_mapping_dealer' and (text() = 'Event - Dealer' or . = 'Event - Dealer')]</value>
+      <webElementGuid>3eaa1ca6-b147-49e9-8b78-9c8afdc05ec7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
