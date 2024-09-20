@@ -29,4 +29,9 @@
       <initValue>'\\Screenshots\\SimulasiKredit'</initValue>
       <name>screenshotPathKredit</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Screenshots\\SimulasiMiniMax'</initValue>
+      <name>screenshotPathMiniMax</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -130,18 +130,21 @@ Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'a
 switch(JenisPembiayaan) {
     case 'Mobil Bekas':
     case 'Refinancing':
-		String tahun = Tahun
-		int tahunInt = Integer.parseInt(tahun);
-		int tahunInt2 = Integer.parseInt(tahun) + 1;
-		String tahunInt22 = String.valueOf(tahunInt2);
-		
+        String currTahun = '2024';
+        int currtahun = Integer.parseInt(currTahun);
+        String tahun = '2018';
+        println(tahun);
+        int targetTahun = Integer.parseInt(tahun);
         Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/tahunKendaraan']"]), 0)
-		if(tahunInt%2==0) {
-			Mobile.scrollToText(tahunInt22)	
-		} else if(tahunInt%2!=0) {
-			Mobile.scrollToText(tahun)			
-		}
-		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//android.widget.LinearLayout[2]/android.widget.Button[2]"]), 0)
+        
+        while(currtahun > targetTahun) {
+            currtahun--;
+            currTahun = String.valueOf(currtahun);
+            Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@text = '$currTahun']"]), 0);
+            println(currTahun);
+            Mobile.delay(1);
+        }
+        Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/button1']"]), 0)
         break
     case 'Mobil Baru':
         break

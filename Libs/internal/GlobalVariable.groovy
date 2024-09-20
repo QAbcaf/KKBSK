@@ -34,6 +34,11 @@ public class GlobalVariable {
      */
     public static Object screenshotPathKredit
      
+    /**
+     * <p></p>
+     */
+    public static Object screenshotPathMiniMax
+     
 
     static {
         try {
@@ -46,6 +51,7 @@ public class GlobalVariable {
             user = selectedVariables['user']
             pass = selectedVariables['pass']
             screenshotPathKredit = selectedVariables['screenshotPathKredit']
+            screenshotPathMiniMax = selectedVariables['screenshotPathMiniMax']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
