@@ -12,7 +12,7 @@
          <iterationType>SPECIFIC</iterationType>
          <value>1</value>
       </iterationEntity>
-      <testDataId>Data Files/KKBSK</testDataId>
+      <testDataId>Data Files/KKBSK_Kredit</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>fc73c046-80db-4491-8f12-898df4f51d88</testDataLinkId>

@@ -12,7 +12,7 @@
          <iterationType>SPECIFIC</iterationType>
          <value>1</value>
       </iterationEntity>
-      <testDataId>Data Files/KKBSK</testDataId>
+      <testDataId>Data Files/KKBSK_Kredit</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>21cf4ce7-bcf6-40e4-b763-a7dca66688be</testDataLinkId>
@@ -91,6 +91,18 @@
       <type>DATA_COLUMN</type>
       <value>PerluasanAsuransi</value>
       <variableId>28c0381e-d052-4ddc-a687-606f642eb0f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>21cf4ce7-bcf6-40e4-b763-a7dca66688be</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>NPWP</value>
+      <variableId>13ed67e2-2f91-493d-aecd-186a0e7ac15f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>21cf4ce7-bcf6-40e4-b763-a7dca66688be</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ManfaatTambahan</value>
+      <variableId>3caceab3-bf33-4a91-99da-81ca5953e367</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -182,5 +194,19 @@
       <id>28c0381e-d052-4ddc-a687-606f642eb0f3</id>
       <masked>false</masked>
       <name>PerluasanAsuransi</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13ed67e2-2f91-493d-aecd-186a0e7ac15f</id>
+      <masked>false</masked>
+      <name>NPWP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3caceab3-bf33-4a91-99da-81ca5953e367</id>
+      <masked>false</masked>
+      <name>ManfaatTambahan</name>
    </variable>
 </TestCaseEntity>

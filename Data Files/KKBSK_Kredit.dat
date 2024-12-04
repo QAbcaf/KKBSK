@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>KKBSK</name>
+   <name>KKBSK_Kredit</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
@@ -12,6 +12,6 @@
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>Kredit</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

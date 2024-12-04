@@ -33,28 +33,26 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver();
 
 String id = 'bcaf.crm.kkb.saleskit:id'
 
-def TESTDATA = findTestData("Data Files/simulasi-budget");
-
+def TESTDATA = findTestData("Data Files/KKBSK_Kredit");
 def test_no = 1;
-
 //def No = TESTDATA.getValue('No', test_no);
 def Program = TESTDATA.getValue('Program', test_no);
 def JenisPembiayaan = TESTDATA.getValue('JenisPembiayaan', test_no);
 def JenisBudget = TESTDATA.getValue('JenisBudget', test_no);
 def TipeKonsumen = TESTDATA.getValue('TipeKonsumen', test_no);
 def NPWP = TESTDATA.getValue('NPWP', test_no);
+def Budget = TESTDATA.getValue('Budget', test_no);
 def Cluster = TESTDATA.getValue('Cluster', test_no);
 def TujuanPenggunaan = TESTDATA.getValue('TujuanPenggunaan', test_no);
 def HargaKendaraan = TESTDATA.getValue('HargaKendaraan', test_no);
 def JenisKendaraan = TESTDATA.getValue('JenisKendaraan', test_no);
 def wilayah = TESTDATA.getValue('Wilayah', test_no);
 def Asuransi = TESTDATA.getValue('Asuransi', test_no);
-//def PerluasanAsuransi = TESTDATA.getValue('PerluasanAsuransi', test_no);
-def RSCC = TESTDATA.getValue('RSCC', test_no);
-def RSMB = TESTDATA.getValue('RSMB', test_no);
-def TJH = TESTDATA.getValue('TJH', test_no);
-
-
+def PerluasanAsuransi = TESTDATA.getValue('PerluasanAsuransi', test_no);
+def ManfaatTambahan = TESTDATA.getValue('ManfaatTambahan', test_no);
+//def RSCC = TESTDATA.getValue('RSCC', test_no);
+//def RSMB = TESTDATA.getValue('RSMB', test_no);
+//def TJH = TESTDATA.getValue('TJH', test_no);
 
 def uncheckAllCheckboxes() {
 	['checkRSCC_budget', 'checkRSMB_budget', 'checkTJH10_budget', 'checkTJH25_budget', 'checkTJH50_budget'].each { resourceId ->
@@ -82,23 +80,25 @@ if(Wilayah == '1') {
 for(int x=1; x<=6; x++) {
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "(//*[@resource-id='$id/card_menu'])[2]"]), 0, FailureHandling.STOP_ON_FAILURE);
 	String budgetcols = 'MukaDP' + x;
-	def Budget = TESTDATA.getValue(budgetcols, test_no);
+	
 	// Jenis Program
+	Mobile.delay(3);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/jenisProgram']"]), 0);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Program')]"]), 0);
 	
-	Mobile.delay(1);
+	Mobile.delay(3);
 	// Jenis Pembiayaan
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/jenisPembiayaan']"]), 0);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisPembiayaan')]"]), 0);
 	
-	Mobile.delay(1);
 	// Tipe Budget
+	Mobile.delay(5);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/SPBudget']"]), 0);
+	Mobile.delay(3);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisBudget')]"]), 0);
-	
-	Mobile.delay(1);
+
 	// Budget
+	Mobile.delay(3);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/nomBudget']"]), 0);
 	String budget = Budget
 	for (int i = 0; i < budget.length(); i++) {
@@ -108,12 +108,13 @@ for(int x=1; x<=6; x++) {
 	}
 	Mobile.hideKeyboard();
 	
-	Mobile.delay(1);
 	// Tipe Konsumen
+	Mobile.delay(2);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/tipeKonsumen']"]), 0);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$TipeKonsumen')]"]), 0);
 	
 	// NPWP
+	Mobile.delay(3);
 	switch(NPWP) {
 		case "Ya":
 			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/npwpY']"]), 0);
@@ -123,25 +124,25 @@ for(int x=1; x<=6; x++) {
 			break;
 	}
 	
-	Mobile.delay(1);
 	// Cluster
+	Mobile.delay(3);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/cluster']"]), 0);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Cluster')]"]), 0);
 	
-	Mobile.delay(1);
 	// Tujuan Penggunaan
+	Mobile.delay(3);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/tujuanPenggunaan']"]), 0);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$TujuanPenggunaan')]"]), 0);
 	
 	// Screenshot
 	Mobile.takeScreenshot((((baseDir + GlobalVariable.sspathP17)) + '/' + test_no + '/' + x + 'data_entry') + '.png', FailureHandling.STOP_ON_FAILURE)
 	
-	Mobile.delay(1);
 	// Lanjut
+	Mobile.delay(1);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/next']"]), 0)
 	
-	Mobile.delay(1);
 	// Harga Kendaraan
+	Mobile.delay(3);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/edthargaKendaraan']"]), 0);
 	 String harga_kendaraan = HargaKendaraan;
 	 for (int i = 0; i < harga_kendaraan.length(); i++) {
@@ -151,66 +152,57 @@ for(int x=1; x<=6; x++) {
 	 }
 	 Mobile.hideKeyboard();
 	
-	 Mobile.delay(1);
 	// Jenis Kendaraan
+	Mobile.delay(1);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/SPjenisKendaraan']"]), 0)
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisKendaraan')]"]), 0)
 	
-	Mobile.delay(1);
 	// Wilayah
+	Mobile.delay(1);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/SPwilayah']"]), 0)
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Wilayah')]"]), 0)
 	
-	Mobile.delay(1);
 	// Asuransi
+	Mobile.delay(1);
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/SPasuransi']"]), 0)
 	Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Asuransi')]"]), 0)
 	
 	// Perluasan Asuransi
+	Mobile.scrollToText("Perluasan Asuransi")
 	def mapPerluasanAsuransi = [
-		'RSCC': 'checkRSCC_budget',
-		'TJH 10 JT': 'checkTJH10_budget',
-		'TJH 25 JT': 'checkTJH25_budget',
-		'RSMB': 'checkRSMB_budget',
-		'TJH 50 JT': 'checkTJH50_buget'
+	    'TJH 10 JT': 'checkTJH10',
+	    'TJH 25 JT': 'checkTJH25',
+	    'TJH 50 JT': 'checkTJH50'
 	]
 	
+	String PerluasanAsuransi = PerluasanAsuransi
 	
-	
-	// Uncheck all checkboxes before proceeding
-	uncheckAllCheckboxes()
-	
-	switch(RSCC) {
-		case '1':
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/checkRSCC_budget']"]), 0)
-			break;
-		default:
-			break;
+	PerluasanAsuransi.tokenize('+').each { item ->
+	    def resourceId = mapPerluasanAsuransi[item.trim()]
+	    if (resourceId) {
+	        def checkbox = findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/$resourceId']"])
+	        if (!Mobile.verifyElementChecked(checkbox, 0)) {
+	            Mobile.tap(checkbox, 0)
+	        }
+	    }
 	}
 	
-	switch(RSMB) {
-		case '1':
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/checkRSMB_budget']"]), 0)
-			break;
-		default:
-			break;
+	// Manfaat Tambahan
+	Mobile.delay(5)
+	if(Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 1 Tahun' or . = 'CPR 1 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 2,  FailureHandling.CONTINUE_ON_FAILURE)) {
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 1 Tahun' or . = 'CPR 1 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 1 Tahun' or . = 'CPR 1 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0);
 	}
 	
-	switch(TJH) {
-		case '10':
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/checkTJH10_budget']"]), 0)
-			break;
-		case '25':
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/checkTJH25_budget']"]), 0)
-			break;
-		case '50':
-			Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/checkTJH50']"]), 0)
-			break;
-		default:
-			break;
+	if(Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 2 Tahun' or . = 'CPR 2 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 2,  FailureHandling.CONTINUE_ON_FAILURE)) {
+		 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 2 Tahun' or . = 'CPR 2 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0);
+	 }
+	 
+	String[] options = ManfaatTambahan.split(" \\+ ")
+	options.each { option ->
+	    String xpath = "//*[@class = 'android.widget.CheckBox' and (@text = '${option}' or . = '${option}') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"
+	    Mobile.tap(findTestObject('Object Repository/xpath', ['xpath': xpath]), 0)
 	}
-	
-
+	 
 	// Screenshot
 	Mobile.takeScreenshot((((baseDir + GlobalVariable.sspathP17)) + '/' + test_no + '/' + x + 'harga_kendaraan') + '.png', FailureHandling.STOP_ON_FAILURE);
 	
@@ -246,8 +238,6 @@ for(int x=1; x<=6; x++) {
 	Mobile.pressBack();
 	Mobile.delay(1);
 }
-
-
 
 //// ADDB
 //Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.TextView' and (@text = 'ADDB')]"]), 0);

@@ -35,4 +35,5 @@ String id = 'bcaf.crm.kkb.saleskit:id'
 // Login
 Mobile.setText(findTestObject('Object Repository/xpath',['xpath':"//*[@class = 'android.widget.EditText' and (@text = 'Username' or . = 'Username')]"]), GlobalVariable.user, 0)
 Mobile.setText(findTestObject('Object Repository/xpath',['xpath':"//*[@class = 'android.widget.EditText' and (@text = 'Password' or . = 'Password')]"]), GlobalVariable.pass, 0)
+Mobile.hideKeyboard()
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//android.widget.FrameLayout[2]/android.widget.ImageView[1]"]), 0, FailureHandling.STOP_ON_FAILURE)

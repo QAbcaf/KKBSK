@@ -73,30 +73,35 @@ Mobile.delay(1)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/jenisPembiayaan']"]), 0)
 Mobile.delay(1)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisPembiayaan')]"]), 0)
-Mobile.delay(1)
+Mobile.delay(2)
 
 // Tipe Konsumen
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/tipeKonsumen']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$TipeKonsumen')]"]), 0)
 
 // NPWP
+Mobile.delay(3)
 switch(NPWP) {
 	case "Ya":
 	case "Yes":
-		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/npwpY']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.RadioButton' and (@text = 'Ya' or . = 'Ya') and @resource-id = 'bcaf.crm.kkb.saleskit:id/npwpY']"]), 0)
 		break;
 	default:
-		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/npwpN']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.RadioButton' and (@text = 'Tidak' or . = 'Tidak') and @resource-id = 'bcaf.crm.kkb.saleskit:id/npwpN']"]), 0)
 		break;
 }
+
+Mobile.delay(2)
 
 // Cluster
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/cluster']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Cluster')]"]), 0)
+Mobile.delay(2)
 
 // Tujuan Penggunaan
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/tujuanPenggunaan']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$TujuanPenggunaan')]"]), 0)
+Mobile.delay(2)
 
 // Screenshot
 Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Input Data') + '.png', FailureHandling.STOP_ON_FAILURE)
@@ -114,6 +119,7 @@ for (int i = 0; i < HargaKendaraan.length(); i++) {
 }
 
 // DP
+Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/uangMukaPercent']"]), 0)
 String DP = DP
 for (int i = 0; i < DP.length(); i++) {
@@ -123,10 +129,12 @@ for (int i = 0; i < DP.length(); i++) {
 }
 
 // Jenis Kendaraan
+Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/jenisKendaraan']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisKendaraan')]"]), 0)
 
 // Tahun Kendaraan
+Mobile.delay(2)
 switch(JenisPembiayaan) {
     case 'Mobil Bekas':
     case 'Refinancing':
@@ -151,19 +159,21 @@ switch(JenisPembiayaan) {
 }
 
 // Wilayah
+Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/wilayah']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Wilayah')]"]), 0)
 
 // Asuransi
+Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/asuransi']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Asuransi')]"]), 0)
 
 // Perluasan Asuransi
+Mobile.delay(2)
+Mobile.scrollToText("Perluasan Asuransi")
 def mapPerluasanAsuransi = [
-    'RSCC': 'checkRSCC',
     'TJH 10 JT': 'checkTJH10',
     'TJH 25 JT': 'checkTJH25',
-    'RSMB': 'checkRSMB',
     'TJH 50 JT': 'checkTJH50'
 ]
 
@@ -179,16 +189,34 @@ PerluasanAsuransi.tokenize('+').each { item ->
     }
 }
 
+// Manfaat Tambahan
+// Uncheck All
+
+Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CFP' or . = 'CFP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'TLP' or . = 'TLP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'PA' or . = 'PA') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+ 
+Mobile.delay(3)
+Mobile.scrollToText("Perluasan Asuransi")
+String ManfaatTambahan = ManfaatTambahan
+String[] options = ManfaatTambahan.split(" \\+ ")
+options.each { option ->
+	  String xpath = "//*[@class = 'android.widget.CheckBox' and (@text = '${option}' or . = '${option}') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"
+	  Mobile.tap(findTestObject('Object Repository/xpath', ['xpath': xpath]), 0)
+}
+
 // Screenshot
 Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Input Harga Kendaraan') + '.png', FailureHandling.STOP_ON_FAILURE)
 
 // Kalkulasi
+Mobile.scrollToText("Kalkulasi")
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/kalkulasi']"]), 0)
 
 // Hasil Simulasi
 // ADDM
-Mobile.delay(3)
-if (Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btDownload']"]), 2,  FailureHandling.CONTINUE_ON_FAILURE)) {
+Mobile.delay(10)
+Mobile.waitForElementPresent(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.Button' and (@text = 'Download' or . = 'Download') and @resource-id = 'bcaf.crm.kkb.saleskit:id/btDownload']"]), 2, FailureHandling.CONTINUE_ON_FAILURE)
+if (Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.Button' and (@text = 'Download' or . = 'Download') and @resource-id = 'bcaf.crm.kkb.saleskit:id/btDownload']"]), 2,  FailureHandling.CONTINUE_ON_FAILURE)) {
     Mobile.takeScreenshot(((baseDir + GlobalVariable.screenshotPathKredit) + '/' + No + '/' + 'ADDM') + '.png', FailureHandling.STOP_ON_FAILURE)
 	
 	// Get Tenor Value
