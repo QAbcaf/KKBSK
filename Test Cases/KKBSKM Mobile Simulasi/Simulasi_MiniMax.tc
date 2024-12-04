@@ -4,6 +4,7 @@
    <name>Simulasi_MiniMax</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ad294cb6-5039-4bed-8506-680d1a5db23d</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
