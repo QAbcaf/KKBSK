@@ -6,8 +6,10 @@
    <UUID>f2507005-35ab-4af2-b0ed-913b7036a149</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\BCAF\kkbsk-priority-17\KKBSK Priority 17.prj</projectFileLocation>
+   <projectFileLocation>E:\magang\rip ssd\KKBSK\KKBSK Priority 17.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

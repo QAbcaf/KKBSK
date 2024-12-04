@@ -25,6 +25,7 @@ import org.openqa.selenium.Keys as Keys
 String baseDir = System.getProperty('user.dir')
 
 String packageName = 'bcaf.crm.kkb.saleskit'
+Mobile.delay(5)
 
 // Start Application
 Mobile.startExistingApplication(packageName)
