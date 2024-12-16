@@ -10,7 +10,7 @@
       <id>21cf4ce7-bcf6-40e4-b763-a7dca66688be</id>
       <iterationEntity>
          <iterationType>SPECIFIC</iterationType>
-         <value>1</value>
+         <value>3</value>
       </iterationEntity>
       <testDataId>Data Files/KKBSK_Kredit</testDataId>
    </testDataLinks>
@@ -103,6 +103,12 @@
       <type>DATA_COLUMN</type>
       <value>ManfaatTambahan</value>
       <variableId>3caceab3-bf33-4a91-99da-81ca5953e367</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>21cf4ce7-bcf6-40e4-b763-a7dca66688be</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CPR</value>
+      <variableId>42e9954d-0e88-48ce-ba20-8f942a488e9c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -208,5 +214,12 @@
       <id>3caceab3-bf33-4a91-99da-81ca5953e367</id>
       <masked>false</masked>
       <name>ManfaatTambahan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42e9954d-0e88-48ce-ba20-8f942a488e9c</id>
+      <masked>false</masked>
+      <name>CPR</name>
    </variable>
 </TestCaseEntity>

@@ -34,4 +34,9 @@
       <initValue>'\\Screenshots\\SimulasiMiniMax'</initValue>
       <name>screenshotPathMiniMax</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Screenshots\\SimulasiBudget'</initValue>
+      <name>screenshotPathBudget</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

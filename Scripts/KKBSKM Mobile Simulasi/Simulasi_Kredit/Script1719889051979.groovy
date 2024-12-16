@@ -134,24 +134,72 @@ Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-i
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$JenisKendaraan')]"]), 0)
 
 // Tahun Kendaraan
-Mobile.delay(2)
+Mobile.delay(5)
 switch(JenisPembiayaan) {
     case 'Mobil Bekas':
     case 'Refinancing':
-        String currTahun = '2024';
-        int currtahun = Integer.parseInt(currTahun);
-        String tahun = '2018';
-        println(tahun);
-        int targetTahun = Integer.parseInt(tahun);
-        Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/tahunKendaraan']"]), 0)
-        
-        while(currtahun > targetTahun) {
-            currtahun--;
-            currTahun = String.valueOf(currtahun);
-            Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@text = '$currTahun']"]), 0);
-            println(currTahun);
-            Mobile.delay(1);
-        }
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.EditText' and @resource-id = 'bcaf.crm.kkb.saleskit:id/tahunKendaraan' and (@text = '' or . = '')]"]), 0)
+	 	Mobile.delay(2)
+		driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		if(Tahun == '2020') {
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		}
+		if(Tahun == '2012') {
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		}
+		if(Tahun == '2017') {
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		}
+		if(Tahun == '2011') {
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		}
+		if(Tahun == '2023') {
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		}
+		if(Tahun == '2014') {
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+			driver.pressKeyCode(AndroidKeyCode.KEYCODE_DPAD_UP)
+		}
         Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/button1']"]), 0)
         break
     case 'Mobil Baru':
@@ -169,40 +217,71 @@ Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-i
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckedTextView' and (@text = '$Asuransi')]"]), 0)
 
 // Perluasan Asuransi
-Mobile.delay(2)
-Mobile.scrollToText("Perluasan Asuransi")
-def mapPerluasanAsuransi = [
-    'TJH 10 JT': 'checkTJH10',
-    'TJH 25 JT': 'checkTJH25',
-    'TJH 50 JT': 'checkTJH50'
-]
+Mobile.delay(7)
 
-String PerluasanAsuransi = PerluasanAsuransi
+//// Manfaat Tambahan
+//// CPR
+//switch(CPR) {
+//	case '1 TAHUN + 2 TAHUN':
+//	case '1 tahun + 2 tahun':
+//	case '1 Tahun + 2 Tahun':
+//		break;
+//	case '1 TAHUN':
+//	case '1 tahun':
+//	case '1 Tahun':
+//		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 2 Tahun' or . = 'CPR 2 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+//		break;
+//	case '2 TAHUN':
+//	case '2 tahun':
+//	case '2 Tahun':
+//		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CPR 1 Tahun' or . = 'CPR 1 Tahun') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+//		break;
+//	default:
+//	break;
+//}
 
-PerluasanAsuransi.tokenize('+').each { item ->
-    def resourceId = mapPerluasanAsuransi[item.trim()]
-    if (resourceId) {
-        def checkbox = findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/$resourceId']"])
-        if (!Mobile.verifyElementChecked(checkbox, 0)) {
-            Mobile.tap(checkbox, 0)
-        }
-    }
-}
-
-// Manfaat Tambahan
 // Uncheck All
-
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CFP' or . = 'CFP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'TLP' or . = 'TLP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
 Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'PA' or . = 'PA') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
  
 Mobile.delay(3)
 Mobile.scrollToText("Perluasan Asuransi")
-String ManfaatTambahan = ManfaatTambahan
-String[] options = ManfaatTambahan.split(" \\+ ")
-options.each { option ->
-	  String xpath = "//*[@class = 'android.widget.CheckBox' and (@text = '${option}' or . = '${option}') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"
-	  Mobile.tap(findTestObject('Object Repository/xpath', ['xpath': xpath]), 0)
+switch(ManfaatTambahan) {
+	case 'CFP':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CFP' or . = 'CFP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
+	case 'TLP':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'TLP' or . = 'TLP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
+	case 'PA':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'PA' or . = 'PA') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
+	case 'CFP + TLP':
+	case 'TLP + CFP':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CFP' or . = 'CFP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'TLP' or . = 'TLP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
+	case 'TLP + PA':
+	case 'PA + TLP':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'TLP' or . = 'TLP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'PA' or . = 'PA') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
+	case 'CFP + PA':
+	case 'PA + CFP':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CFP' or . = 'CFP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'PA' or . = 'PA') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
+	case 'CFP + TLP + PA':
+	case 'CFP + PA + TLP':
+	case 'TLP + CFP + PA':
+	case 'TLP + PA + CFP':
+	case 'PA + CFP + TLP':
+	case 'PA + TLP + CFP':
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'CFP' or . = 'CFP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'TLP' or . = 'TLP') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+		Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.CheckBox' and (@text = 'PA' or . = 'PA') and @resource-id = 'bcaf.crm.kkb.saleskit:id/cbItem']"]), 0)
+	break
 }
 
 // Screenshot
@@ -217,7 +296,7 @@ Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-i
 Mobile.delay(10)
 Mobile.waitForElementPresent(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.Button' and (@text = 'Download' or . = 'Download') and @resource-id = 'bcaf.crm.kkb.saleskit:id/btDownload']"]), 2, FailureHandling.CONTINUE_ON_FAILURE)
 if (Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath' : "//*[@class = 'android.widget.Button' and (@text = 'Download' or . = 'Download') and @resource-id = 'bcaf.crm.kkb.saleskit:id/btDownload']"]), 2,  FailureHandling.CONTINUE_ON_FAILURE)) {
-    Mobile.takeScreenshot(((baseDir + GlobalVariable.screenshotPathKredit) + '/' + No + '/' + 'ADDM') + '.png', FailureHandling.STOP_ON_FAILURE)
+    Mobile.takeScreenshot(((baseDir + GlobalVariable.screenshotPathKredit) + '/' + No + '/' + 'ADDM') + '.png', FailureHandling.CONTINUE_ON_FAILURE)
 	
 	// Get Tenor Value
 	def DP_Angsuran = [ 
@@ -247,8 +326,9 @@ if (Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath'
 	
     Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btDownload']"]), 0)
     Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/buttonSimulasiDetail']"]), 0)
-    Mobile.delay(2)
-    Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Simulasi Detail ADDM') + '.png', FailureHandling.STOP_ON_FAILURE)
+    Mobile.delay(5)
+    Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Simulasi Detail ADDM') + '.png', FailureHandling.CONTINUE_ON_FAILURE)
+	Mobile.delay(10)
     Mobile.pressBack();
 }
 
@@ -260,24 +340,24 @@ if (Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath'
     Mobile.takeScreenshot(((baseDir + GlobalVariable.screenshotPathKredit) + '/' + No + '/' + 'ADDB') + '.png', FailureHandling.STOP_ON_FAILURE)
 	
 	// Get Tenor Value
-	def DP_Angsuran = [ 
-	    ["MukaDP1", "//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
-	    ["MukaDP2", "//android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
-	    ["MukaDP3", "//android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
-	    ["MukaDP4", "//android.widget.FrameLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
-	    ["MukaDP5", "//android.widget.FrameLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
-	    ["MukaDP6", "//android.widget.FrameLayout[6]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
-	    ["MukaAngsuran1", "//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
-	    ["MukaAngsuran2", "//android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
-	    ["MukaAngsuran3", "//android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
-	    ["MukaAngsuran4", "//android.widget.FrameLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
-	    ["MukaAngsuran5", "//android.widget.FrameLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
-	    ["MukaAngsuran6", "//android.widget.FrameLayout[6]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"]
+	def DP_Angsuran2 = [ 
+	    ["BelakangDP1", "//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
+	    ["BelakangDP2", "//android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
+	    ["BelakangDP3", "//android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
+	    ["BelakangDP4", "//android.widget.FrameLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
+	    ["BelakangDP5", "//android.widget.FrameLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
+	    ["BelakangDP6", "//android.widget.FrameLayout[6]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"],
+	    ["BelakangAngsuran1", "//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
+	    ["BelakangAngsuran2", "//android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
+	    ["BelakangAngsuran3", "//android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
+	    ["BelakangAngsuran4", "//android.widget.FrameLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
+	    ["BelakangAngsuran5", "//android.widget.FrameLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"],
+	    ["BelakangAngsuran6", "//android.widget.FrameLayout[6]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]"]
 	]
 	
 	WriteExcel excelKeyword = new WriteExcel()
 	
-	DP_Angsuran.each { columnValue ->
+	DP_Angsuran2.each { columnValue ->
 		def columnHeader = columnValue[0]
 		def xpath = columnValue[1]
 		
@@ -287,8 +367,9 @@ if (Mobile.verifyElementExist(findTestObject('Object Repository/xpath', ['xpath'
 	
     Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/btDownload']"]), 0)
     Mobile.tap(findTestObject('Object Repository/xpath', ['xpath' : "//*[@resource-id = '$id/buttonSimulasiDetail']"]), 0)
-    Mobile.delay(2)
+    Mobile.delay(5)
     Mobile.takeScreenshot((((baseDir + GlobalVariable.screenshotPathKredit)) + '/' + No + '/' + 'Simulasi Detail ADDB') + '.png', FailureHandling.STOP_ON_FAILURE)
+	Mobile.delay(10)
     Mobile.pressBack();
 }
 
